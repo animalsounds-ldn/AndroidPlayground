@@ -7,43 +7,30 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <Button
-        android:id="@+id/callNewProduct"
-        android:layout_width="wrap_content"
+        android:id="@+id/dbTestbutton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#009688"
         android:onClick="openNextScreen"
-        android:text="add Product"
+        android:text="Testing for DB and Recycler View"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerMainContent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/headerMainContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="123dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="123dp"
-        android:text="Add more products to this list"
-        android:textColor="#009688"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:text="Welcome to ZooVerse Playground"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="609dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/callNewProduct"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

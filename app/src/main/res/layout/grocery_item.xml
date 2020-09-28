@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textView_amount_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textSize="30sp"/>
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/textView_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="empty item"
+        android:textSize="30sp"
+        android:layout_marginStart="8dp"
+        />
+</LinearLayout>
