@@ -35,9 +35,11 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     
     }
-    public void openNextScreen(View view) {
-        Intent intent = new Intent(getApplicationContext(), NewProduct.class);
-        startActivity(intent);
+    public void openDbTest(View view) {
+        startActivity(new Intent(getApplicationContext(), NewProduct.class));
+    }
+    public void openAudioTest(View view) {
+        startActivity(new Intent(getApplicationContext(), AudioActivity.class));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
