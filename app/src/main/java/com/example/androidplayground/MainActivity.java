@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
     public void openAudioTest(View view) {
         startActivity(new Intent(getApplicationContext(), AudioActivity.class));
     }
+    public void openMapsTest(View view) {
+        startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -14,4 +14,5 @@
 	<string name="product_name">Product Name</string>
 	<string name="year_purchased">Year purchased</string>
 	<string name="save_btn">save</string>
+	<string name="title_activity_maps">Map PlayGround</string>
 </resources>

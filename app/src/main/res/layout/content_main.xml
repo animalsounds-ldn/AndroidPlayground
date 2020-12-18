@@ -7,6 +7,20 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <Button
+        android:id="@+id/mapsTestButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#009688"
+        android:onClick="openMapsTest"
+        android:text="Testing for Google Maps"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/dbTestbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dbTestbutton"
+        app:layout_constraintTop_toBottomOf="@+id/audioTestButton" />
+
+    <Button
         android:id="@+id/dbTestbutton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
