@@ -59,6 +59,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 		zooMap.getUiSettings().setMyLocationButtonEnabled(true);
 		zooMap.getUiSettings().setZoomControlsEnabled(true);
 		zooMap.getUiSettings().setCompassEnabled(true);
+		zooMap.setMinZoomPreference(14);
 		
 		if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
 			//Location Permission already granted
